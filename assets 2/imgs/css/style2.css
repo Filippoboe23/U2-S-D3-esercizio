@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fbf7e3;
+
+  padding-block: 50px;
+  padding-inline: 30px;
+  border-radius: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px;
+}
+
+.nav-item {
+  background-color: #fddc5c;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  color: #603808;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.shop-item {
+  font-weight: bold;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
+  font-size: 3em;
+  min-height: 6rem;
+}
+
+.bee-icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 60px;
+}
